@@ -3,6 +3,10 @@ extends Tamplate/head
 block content
     .main
         include Tamplate/menu
-        p It is tamplate
-        p It is tamplate2
+        span.game-title#massage Ходит игрок Х
+        .game
+            -var val=1
+            while val<1
+                .game-item(date-ceil - val++)
 
+        button#reset-game Очистить

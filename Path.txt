@@ -1,1 +1,5 @@
 C:\Users\user\AppData\Roaming\npm\jade.cmd
+
+npm i -g npm-check-updates
+npm-check-updates -u
+npm install
