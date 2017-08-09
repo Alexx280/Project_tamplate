@@ -2,3 +2,46 @@
   box-sizing: border-box;
   outline: none;
 }
+.game-title {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.game {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 152px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+.game-item {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  line-height: 40px;
+  border: 1px solid #000;
+  cursor: pointer;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  transition: all lianer 0.3s;
+}
+.game-item:hover {
+  background-color: #ccc;
+}
+#reset-game {
+  dispay: block;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px 20px;
+  transition: all lianer 0.5s;
+  text-align: center;
+}
+#reset-game:hover {
+  background-color: #ccc;
+}

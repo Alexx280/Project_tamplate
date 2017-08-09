@@ -3,10 +3,10 @@ extends Tamplate/head
 block content
     .main
         include Tamplate/menu
-        span.game-title#massage Ходит игрок Х
+        span.game-title#message Ходит игрок Х
         .game
-            -var val=1
-            while val<1
-                .game-item(date-ceil - val++)
+            -for(var x = 1; x < 10; x++)
+                .game-item(data-ceil = x)
 
         button#reset-game Очистить
+
