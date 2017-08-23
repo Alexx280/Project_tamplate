@@ -1,3 +1,45 @@
 *
   box-sizing border-box
   outline none
+
+.game-title
+  display block
+  margin-bottom 30px
+  font-size 35px
+  font-weight bold
+  text-align center
+
+.game
+  display flex
+  justify-content space-between
+  flex-wrap wrap
+  width 152px
+  margin 0 auto
+  border 1px solid black
+
+.game-item
+  position relative
+  height: 50px
+  width: 50px
+  line-height 40px
+  border 1px solid black
+  cursor pointer
+  text-align center
+  font-size 30px
+  font-weight bold
+  transition all lianer .3s
+  &:hover
+    background-color #ccc
+
+#reset-game
+  dispay block
+  margin 0 auto
+  border 1px solid black
+  border-radius 20px
+  background-color #fff
+  padding 10px 20px
+  //cursor pointer
+  transition all lianer .5s
+  text-align center
+  &:hover
+    background-color #ccc
